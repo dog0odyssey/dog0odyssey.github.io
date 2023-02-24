@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: lightgray;
+  padding: 32px 0;
+}
+
+h1 {
+  margin: 0 0 32px;
+}
+
+header > p {
+  text-align: center;
+}
+
+header > p > a {
+  margin: 0 30px;
+}
+
+section {
+  text-align: center;
+  margin: 100px auto;
+  width: 400px;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  
+}
+
+div {
+  margin-top: 100px;
+}
